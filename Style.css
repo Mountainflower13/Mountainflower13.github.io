@@ -1,0 +1,58 @@
+/* style.css */
+
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header-Stile */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigationsleiste-Stile */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hauptinhalt-Stile */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer-Stile */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsives Design */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    nav ul li {
+        margin-right: 10px;
+    }
+}
